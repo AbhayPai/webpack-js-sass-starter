@@ -1,0 +1,38 @@
+{
+  "name": "boilerplate-webpack-js",
+  "version": "1.0.0",
+  "description": "Boilerplate for webpack js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --progress --colors --watch --mode development",
+    "build": "webpack --progress --colors --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AbhayPai/boilerplate-webpack-js"
+  },
+  "keywords": [
+    "nodejs",
+    "npm",
+    "webpack",
+    "babel",
+    "sass"
+  ],
+  "author": "Abhay Pai",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.1",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
+}

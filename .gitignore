@@ -1,0 +1,2 @@
+# excluding folders and files
+web/node_modules/*

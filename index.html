@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#317EFB">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Login template 1">
+  <meta name="keywords" content="HTML, CSS, JS, SASS, Webpack, Webpack 4, Nodejs">
+  <meta name="author" content="Abhay Pai">
+  <link rel="icon" href="./web/public/images/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <title>Boilerplate for webpack js and sass | Abhay Pai</title>
+  <script type="text/javascript">
+    function displayError() {
+      var anchorObject = createAnchor();
+
+      return document.body.appendChild(anchorObject);
+    }
+
+    function createAnchor() {
+      var anchor = document.createElement("a");
+      anchor.innerText = "Please check the documentation on github";
+      anchor.setAttribute("href", "https://github.com/AbhayPai/boilerplate-webpack-js-sass/blob/master/README.md");
+      anchor.setAttribute("target", "_blank");
+      emptyBody();
+
+      return anchor;
+    }
+
+    function emptyBody(){
+      return document.body.innerText = "";
+    }
+  </script>
+</head>
+<body>
+  <h1>Boilerplate for webpack js files.</h1>
+  <script src="./web/public/js/index.js" onerror="displayError();"></script>
+</body>
+</html>
