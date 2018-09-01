@@ -1,5 +1,5 @@
 # Boilerplate Webpack JS and SASS
-After installing you site should look like this => [Boilerplate Webpack JS and SASS](https://abhaypai.github.io/boilerplate-webpack-js-sass)
+After installing you site should look like this => [Boilerplate Webpack JS and SASS](https://abhaypai.github.io/boilerplate-webpack-js-sass/)
 
 Created a Boilerplate for compiling JS using `node.js` and `webpack`
 
